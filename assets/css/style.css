@@ -5936,6 +5936,7 @@ input, button{ border: none !important; outline: none !important; }
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	gap: 2rem;
 	
 }
 
@@ -6053,6 +6054,9 @@ input, button{ border: none !important; outline: none !important; }
 		display: flex;
 		flex-direction: column;
 	}
+	.sk-map{
+		width: 400px;
+	}
 	.sk-form-section-content-header {
 		max-width: 480px;
 	}
@@ -6081,6 +6085,9 @@ input, button{ border: none !important; outline: none !important; }
 @media only screen and  (max-width: 480px){
  
 	.sk-rows{max-width: 320px;}
+	.sk-map{
+		width: 320px !important;
+	}
     .sk-form{
 		display: flex;
 		flex-direction: column;
@@ -6143,4 +6150,9 @@ input[type="range"]::-webkit-range-thumb {
 	-moz-appearance: none !important;
 	width: 0 !important;
 	height: 0 !important;
+  }
+
+  .sk-Industry-types{
+	  flex-basis: 25%;
+	  text-align: center;
   }
