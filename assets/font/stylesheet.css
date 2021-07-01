@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Font Awesome 5 Pro';
+    src: url('FontAwesome5ProSolid.woff2') format('woff2'),
+        url('FontAwesome5ProSolid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
