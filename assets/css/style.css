@@ -5624,6 +5624,7 @@ input, button{ border: none !important; outline: none !important; }
 .g-maxw-362px{max-width: 362px !important;}
 .g-maxw-357px{max-width: 357px !important;}
 .g-maxw-21px{max-width: 21px !important;}
+.g-w-167px{width: 167px !important;}
 .g-maxw-584px{max-width: 584px !important;}
 .g-maxw-298px{max-width: 298px !important;}
 .g-max-268px{max-width: 268px !important;}
@@ -6153,6 +6154,6 @@ input[type="range"]::-webkit-range-thumb {
   }
 
   .sk-Industry-types{
-	  flex-basis: 25%;
+	  flex-basis: 30%;
 	  text-align: center;
   }
