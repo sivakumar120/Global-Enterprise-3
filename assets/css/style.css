@@ -6160,14 +6160,14 @@ input[type="range"]::-webkit-range-thumb {
 	  text-align: center;
   }
 
-  .sk-Industry-types:hover{
+  .sk-Industry-types:hover, .sk-Industry-types:focus{
 	  background-color: #19C1C3;
 	  color: white !important;
 	  transition: .3s;
 	  padding-bottom: 50px;
   }
 
-  .sk-Industry-types:hover svg path{
+  .sk-Industry-types:hover svg path, .sk-Industry-types:focus svg path{
 	  fill: white;
 	  stroke: white;
 	  transition: .3s;
