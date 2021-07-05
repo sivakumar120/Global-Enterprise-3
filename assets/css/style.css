@@ -6212,5 +6212,5 @@ input[type="range"]::-webkit-range-thumb {
 }
  .sk-company-banner{
 	 max-width: 1600px;
-	 margin-left: auto;
+	 margin-left: auto !important;
  }
