@@ -5807,9 +5807,7 @@ input, button{ border: none !important; outline: none !important; }
 
 @media only screen and (max-width: 992px){
 
-	.bnr-row{
-		flex-direction: column !important;
-	}
+
 
 	.layer-one{
 		background-image: none !important;
@@ -5859,9 +5857,7 @@ input, button{ border: none !important; outline: none !important; }
 .g-bg-no-rep{background-repeat: no-repeat !important;}
 .g-bg-pos-lft{background-position: left !important;}
 
-.slider-area{
-	overflow: hidden;
-}
+
 
 .sk-address-container{
 	display: flex;
@@ -6034,6 +6030,23 @@ input, button{ border: none !important; outline: none !important; }
 	.sk-company-img{
 		width: 100%;
 	}
+	.sk-bnr-cont-1{
+		font-size: 3.5rem !important;
+		line-height: 4rem !important;
+		
+	}
+	.col-1{
+		flex-basis: 10% !important;
+	}
+	.col-2 {
+		flex-basis: 55% !important;
+	}
+	.sk-banner-desc{
+		
+		padding-right: 2rem !important;
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
+	}
 
 }
 @media only screen and (min-width: 768px) and (max-width: 992px){
@@ -6072,6 +6085,29 @@ input, button{ border: none !important; outline: none !important; }
 		margin: auto !important;
 		max-width: 900px !important;
 	} 
+	.bnr-row{
+		flex-direction: row !important;
+	}
+	.sk-bnr-cont-1{
+		font-size: 2.8rem !important;
+		line-height: 3.3rem !important;
+		padding-top: 3.5rem !important;
+	}
+	.col-1{
+		flex-basis: 5% !important;
+	}
+	.col-2 {
+		flex-basis: 50% !important;
+	}
+	.sk-banner-desc{
+		
+		padding-right: 1rem !important;
+		padding-top: 1rem !important;
+		padding-bottom: 1rem !important;
+		font-size: 0.9rem !important;
+		line-height: 1.3rem !important;
+	}
+
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px){
 
@@ -6082,6 +6118,23 @@ input, button{ border: none !important; outline: none !important; }
 	}
 	.sk-company-img{
 		width: 800px !important;
+	}
+	.sk-bnr-cont-1{
+		font-size: 4rem !important;
+		line-height: 4.5rem !important;
+		
+	}
+	.col-1{
+		flex-basis: 15% !important;
+	}
+	.col-2 {
+		flex-basis: 50% !important;
+	}
+	.sk-banner-desc{
+	
+		padding-right: 2rem !important;
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
 	}
 }
 
@@ -6117,6 +6170,40 @@ input, button{ border: none !important; outline: none !important; }
 	.sk-about-cards {
 		display: flex;
 	    flex-direction: column;
+	}
+	.sk-banner-desc{
+		
+		padding-right: 1rem !important;
+		padding-top: 1rem !important;
+		padding-bottom: 1rem !important;
+		font-size: 0.9rem !important;
+		line-height: 1.3rem !important;
+	}
+	.sk-bnr-cont-1{
+		font-size: 2.5rem !important;
+		line-height: 2.8rem !important;
+		padding-top: 1rem !important;
+		padding-left: 1rem !important;
+		
+	}
+	.col-1{
+		display: none;
+	}
+	.col-2 {
+		flex-basis: 53% !important;
+	}
+	.col-3 {
+		flex-basis: 40% !important;
+	}
+	.col-4 {
+		flex-basis: 7% !important;
+	}
+	.sk-banner-desc{
+		font-size: 0.8rem !important;
+		padding-right: 1rem !important;
+		padding-top: 1rem !important;
+		padding-bottom: 1rem !important;
+		padding-left: 1rem !important;
 	}
 }
 
@@ -6155,6 +6242,40 @@ input, button{ border: none !important; outline: none !important; }
 	}
 	.sk-cnt-logo{
 		width: 100px;
+	}
+	.sk-banner-desc{
+		
+		padding-right: 1rem !important;
+		padding-top: 1rem !important;
+		padding-bottom: 1rem !important;
+		font-size: 0.7rem !important;
+		line-height: 1.1rem !important;
+	}
+	.sk-bnr-cont-1{
+		font-size: 2rem !important;
+		line-height: 2.3rem !important;
+		padding-top: 1rem !important;
+		padding-left: 1rem !important;
+		
+	}
+	.col-1{
+		display: none;
+	}
+	.col-2 {
+		flex-basis: 53% !important;
+	}
+	.col-3 {
+		flex-basis: 40% !important;
+	}
+	.col-4 {
+		flex-basis: 7% !important;
+	}
+	.sk-banner-desc{
+		font-size: 0.8rem !important;
+		padding-right: 1rem !important;
+		padding-top: 1rem !important;
+		padding-bottom: 1rem !important;
+		padding-left: 1rem !important;
 	}
 }
 
@@ -6208,9 +6329,11 @@ input[type="range"]::-webkit-range-thumb {
 	  transition: .3s;
   }
 .sk-bnr-cont-1{
-	padding-top: 5rem;
+	padding-top: 8rem;
 }
  .sk-company-banner{
 	 max-width: 1600px;
 	 margin-left: auto !important;
  }
+
+
